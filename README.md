@@ -4,10 +4,10 @@ JSON-Flyer
 "Template can fly" philosophy
 -----------------------------
 
-- Template is data, so it
- -- should have structure
- -- can be stored in Database
- -- can be queried and computed
+- Template is data
+- Template should have data structure
+- Template can be stored in Database
+- Template can be queried and computed
 - Render is compute between template and data or between template and template
 - Template can be render in anywhere anytime.
 
