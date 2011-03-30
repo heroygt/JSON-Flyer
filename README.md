@@ -96,7 +96,7 @@ Client side code:
 	</html>
 	
 Result(value part is fake here, try out in browser by yourself):
-https://github.com/heroygt/JSON-Flyer/wiki
+[[https://github.com/heroygt/JSON-Flyer/wiki]]
 
 ---
 
