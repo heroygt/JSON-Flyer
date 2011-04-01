@@ -37,7 +37,6 @@ JsonFlyer.prototype = {
 		switch(elements.get(0).tagName) {
 			case 'INPUT' : elements.val(value); elements.click();break;
 			case 'TEXTAREA' : elements.val(value);break;
-			case 'LABLE': elements.text(value);break;
 			case 'SELECT': {
 				if(new RegExp("^options =>").test(value)) {
 					value = value.replace("options =>", "");
@@ -49,7 +48,7 @@ JsonFlyer.prototype = {
 					break;
 				}
 			}
-			default: break;
+			default: elements.text(value);
 		}
 	},
 	
